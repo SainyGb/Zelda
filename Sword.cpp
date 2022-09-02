@@ -20,3 +20,9 @@ void Sword::print( ) const
     cout << "Strength: "   << strength << '\n';
     cout << "Durability: " << durability << '\n';
 }
+
+void Sword::aumentarStr( double strength)
+{
+    this->strength += strength;
+    return;
+}
